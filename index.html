@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
     <head>
-
+        <title>HTML연습</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+            .emoji{
+                font-family: "Roboto Slab", serif;
+                font-weight: 900;
+                font-size: 150pt;
+                position:absolute;
+                transition-duration: 1s;
+                transition-timing-function: ease;
+                transition-delay: 0s;
+            }
+            .emoji:hover{
+                transform:translate(100px, 50px) skewX(-10deg);
+                font-weight:100;
+            }
+        </style>
     </head>
     <body>
-        AAAA
+       <div class = "emoji">H</div>
+        <!--img class = "emoji" src="smile.png" onClick="hoho();"-->
+
     </body>
 </html>
